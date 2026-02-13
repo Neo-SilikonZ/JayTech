@@ -56,5 +56,13 @@
   <!-- one hidden input per field from your React form, exact same 'name' attributes -->
   <!-- for multi-select subjects, use one <input type="text" name="subjects" /> or multiple with name="subjects[]" -->
 </form>
+    <form name="tutor-signup" method="POST" data-netlify="true" hidden>
+  <input type="hidden" name="form-name" value="tutor-signup" />
+  <input type="text" name="name" />
+  <input type="tel" name="phone" />
+  <!-- add one hidden input for each additional field from your React form, exact same 'name' -->
+  <!-- e.g. qualification, city, subjects, why etc. -->
+  <!-- for checkboxes/multi-select: <input type="text" name="subjects" /> or name="subjects[]" -->
+</form>
 </body>
 </html>
