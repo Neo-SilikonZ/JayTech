@@ -43,5 +43,18 @@
 <body class="bg-white text-gray-900">
     <div id="root"></div>
 <script type="module" src="/index.tsx"></script>
+    <form name="jaytech-waitlist" method="POST" data-netlify="true" hidden>
+  <input type="hidden" name="form-name" value="jaytech-waitlist" />
+  <input type="text" name="name" />
+  <input type="tel" name="phone" />
+  <select name="grade">
+    <option>Grade 10</option>
+    <option>Grade 11</option>
+    <option>Grade 12</option>
+    <option>Other</option>
+  </select>
+  <!-- one hidden input per field from your React form, exact same 'name' attributes -->
+  <!-- for multi-select subjects, use one <input type="text" name="subjects" /> or multiple with name="subjects[]" -->
+</form>
 </body>
 </html>
