@@ -35,7 +35,7 @@ npm run dev
 
 ## Deployment
 
-Deployed on Netlify: https://jaytech.netlify.app (update link when live)
+Deployed on Netlify: https://jaytechza.netlify.app (update link when live)
 
 Auto-deploys on push to main.
 
